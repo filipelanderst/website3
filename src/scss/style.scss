@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: Amsterdam;
+  src: url('../fonts/Amsterdam.ttf');
+}
+
+* {
+  hyphens: auto;
+  @apply text-slate-600 box-border m-0 p-0 text-justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul,
+li {
+  font-family: 'josefin sans', sans-serif;
+}
+
+h1 {
+  font-family: Amsterdam, sans-serif;
+}
+
+.sobremim-container,
+.projetos-container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: Amsterdam, sans-serif;
+  font-size: 12px;
+  @apply font-bold z-30;
+}
+
+.menu {
+  @apply fixed w-full top-0;
+}
+
+.menu-open,
+.menu-close {
+  @apply bg-white fixed w-full h-full flex p-4 text-center duration-300;
+
+  ul {
+    max-width: 300px;
+
+    @apply mx-auto text-2xl p-4;
+
+    li {
+      @apply p-4 text-center;
+    }
+  }
+
+  img {
+    @apply mx-auto;
+  }
+}
+
+.menu-close {
+  margin-left: -1024px;
+}
+
+.hide-logo {
+  @apply invisible;
+}
+
+@media (min-width: 1024px) {
+  .menu-close,
+  .menu-open {
+    @apply hidden;
+  }
+
+  .hide-logo {
+    @apply visible;
+  }
+}

@@ -11,7 +11,7 @@ module.exports = {
       'max-w-screen-md': '768px',
       'max-w-screen-lg': '1024px',
       'max-w-screen-xl': '1280px',
-      'max-w-screen-2xl': '1536',
+      'max-w-screen-2xl': '1536px',
     },
     extend: {},
   },

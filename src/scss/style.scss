@@ -11,6 +11,16 @@
   src: url('../fonts/Amsterdam.ttf');
 }
 
+@font-face {
+  font-family: BDScript;
+  src: url('../fonts/BDScript.otf');
+}
+
+@font-face {
+  font-family: Modernline;
+  src: url('../fonts/Modernline.otf');
+}
+
 * {
   hyphens: auto;
   @apply text-slate-600 box-border m-0 p-0 text-justify;
@@ -27,14 +37,21 @@ li {
   font-family: 'josefin sans', sans-serif;
 }
 
-h1 {
-  font-family: Amsterdam, sans-serif;
+.projetos-container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-.sobremim-container,
-.projetos-container {
+.sobremim-container {
   max-width: 768px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: Modernline, sans-serif;
+  font-variant-ligatures: additional-ligatures;
+  @apply font-thin pt-8 py-12 text-6xl
+    text-slate-600 text-center;
 }
 
 .logo {
@@ -72,6 +89,29 @@ h1 {
 
 .hide-logo {
   @apply invisible;
+}
+
+.limit-paragraph {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.desktop-img {
+  max-width: 720px;
+  @apply mx-auto;
+}
+
+.tablet-img {
+  max-width: 360px;
+  @apply mx-auto;
+}
+
+.mobile-img {
+  max-width: 180px;
+  @apply mx-auto;
 }
 
 @media (min-width: 1024px) {

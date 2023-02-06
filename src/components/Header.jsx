@@ -14,13 +14,13 @@ const Header = () => {
     <div>
       <div className='menu bg-green-100 text-sm flex justify-between items-center max-w-fullhd mx-auto px-2 -mt-2 '>
         <Link className={isOpen ? 'hide-logo' : ''} to='/'>
-          <div className='logo py-4 mt-2'>FL</div>
+          <div className='logo py-3 mt-2'>FL</div>
         </Link>
-        <div className='hidden lg:block pt-2'>
+        <div className='hidden lg:block pt-1'>
           <MenuDesktop />
         </div>
 
-        <div className='lg:hidden pt-2'>
+        <div className='lg:hidden pt-1'>
           <Hamburger size={22} toggled={isOpen} toggle={setOpen} />
         </div>
       </div>

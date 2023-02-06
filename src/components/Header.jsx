@@ -37,12 +37,20 @@ const Header = () => {
             <Link to='/SobreMim'>Sobre Mim</Link>
           </li>
           <li>
-            <a href='https://github.com/flx-lander7' target='_blank'>
+            <a
+              href='https://github.com/flx-lander7'
+              target='_blank'
+              translate='no'
+            >
               Github
             </a>
           </li>
           <li>
-            <a href='https://linkedin.com/in/filipelander' target='_blank'>
+            <a
+              href='https://linkedin.com/in/filipelander'
+              target='_blank'
+              translate='no'
+            >
               LinkedIn
             </a>
           </li>

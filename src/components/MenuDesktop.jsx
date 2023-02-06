@@ -12,12 +12,20 @@ const MenuDesktop = () => {
           <Link to='/SobreMim'>Sobre mim</Link>
         </li>
         <li className='mr-6 border-b-2 border-transparent hover:border-slate-600'>
-          <a href='https://github.com/flx-lander7' target='_blank'>
+          <a
+            href='https://github.com/flx-lander7'
+            target='_blank'
+            translate='no'
+          >
             Github
           </a>
         </li>
         <li className='mr-2 border-b-2 border-transparent hover:border-slate-600'>
-          <a href='https://linkedin.com/in/filipelander' target='_blank'>
+          <a
+            href='https://linkedin.com/in/filipelander'
+            target='_blank'
+            translate='no'
+          >
             LinkedIn
           </a>
         </li>

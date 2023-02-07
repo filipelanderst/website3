@@ -12,7 +12,7 @@ const Projetos = () => {
     <div className='projetos-container'>
       <h1 className='limit-title title -ml-60'>S_3projetos</h1>
 
-      <section className='bg-white py-20 -mt-10 lg:mt-0  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
+      <section className=' py-20 pt-10 lg:pt-20 -mt-10 lg:mt-0  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
         <div className='desktop-img mb-8 lg:mb-0'>
           <Link to='/BestMovies'>
             <img src={bestMoviesImg} alt='' />
@@ -21,7 +21,10 @@ const Projetos = () => {
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
           <div className='lg:absolute lg:top-0 lg:-mt-4'>
-            <h1 className='limit-title text-4xl lg:mt-24 text-slate-800'>
+            <h1
+              className='limit-title text-4xl lg:mt-24 text-slate-800'
+              translate='no'
+            >
               <Link to='/BestMovies'> Best Movies</Link>
             </h1>
             <p className='-mt-1 text-sm text-slate-600 font-normal'>jan 23</p>
@@ -64,7 +67,10 @@ const Projetos = () => {
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
           <div className='lg:absolute lg:top-0 lg:-mt-4'>
-            <h1 className='limit-title text-4xl lg:mt-24 text-slate-100'>
+            <h1
+              className='limit-title text-4xl lg:mt-24 text-slate-100'
+              translate='no'
+            >
               <Link to='/MelhoresCidades'>Melhores Cidades</Link>
             </h1>
             <p className='-mt-1 text-sm text-slate-300 font-normal'>dez 22</p>
@@ -108,7 +114,7 @@ const Projetos = () => {
         </div>
       </section>
 
-      <section className='bg-white py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
+      <section className=' py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
         <div className='desktop-img mb-8 lg:mb-0'>
           <Link to='/NossoPlaneta'>
             <img src={nossoPlanetaImg} alt='' />
@@ -117,7 +123,10 @@ const Projetos = () => {
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
           <div className='lg:absolute lg:top-0 lg:-mt-4'>
-            <h1 className='limit-title text-4xl lg:mt-24 text-slate-800'>
+            <h1
+              className='limit-title text-4xl lg:mt-24 text-slate-800'
+              translate='no'
+            >
               <Link to='/NossoPlaneta'>Nosso Planeta</Link>
             </h1>
             <p className='-mt-1 text-sm text-slate-600 font-normal'>Out 22</p>
@@ -168,7 +177,10 @@ const Projetos = () => {
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
           <div className='lg:absolute lg:top-0 lg:-mt-4'>
-            <h1 className='limit-title text-4xl lg:mt-24 text-slate-100'>
+            <h1
+              className='limit-title text-4xl lg:mt-24 text-slate-100'
+              translate='no'
+            >
               <Link to='/StanislavAdamovich'>Stanislav Adamovich</Link>
             </h1>
             <p className='-mt-1 text-sm text-slate-300 font-normal'>Mai 22</p>
@@ -212,7 +224,10 @@ const Projetos = () => {
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
           <div className='lg:absolute lg:top-0 lg:-mt-4'>
-            <h1 className='limit-title text-4xl lg:mt-24 text-slate-800'>
+            <h1
+              className='limit-title text-4xl lg:mt-24 text-slate-800'
+              translate='no'
+            >
               <Link to='/VioloesCardin'> Violões Cardin</Link>
             </h1>
             <p className='-mt-1 text-sm text-slate-600 font-normal'>Mai 22</p>
@@ -251,7 +266,10 @@ const Projetos = () => {
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
           <div className='lg:absolute lg:top-0 lg:-mt-4'>
-            <h1 className='limit-title text-4xl lg:mt-24 text-slate-100'>
+            <h1
+              className='limit-title text-4xl lg:mt-24 text-slate-100'
+              translate='no'
+            >
               <Link to='/PgHomenagem'>Página de Homenagem</Link>
             </h1>
             <p className='-mt-1 text-sm text-slate-300 font-normal'>Mai 22</p>

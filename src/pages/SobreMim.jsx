@@ -5,7 +5,7 @@ const SobreMim = () => {
     <div className='sobremim-container'>
       <h1 className='title'>About me...</h1>
 
-      <p className='mt-4 px-4 font-light text-md text-slate-600  '>
+      <p className='mt-4 px-4  text-slate-600  '>
         Tenho 35 anos e comecei meus estudos em frontend em janeiro de 2022. Sei
         trabalhar com <strong>HTML</strong>, <strong>CSS</strong>,{' '}
         <strong>Javascript</strong>, <strong>React</strong>,{' '}

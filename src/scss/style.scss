@@ -37,6 +37,10 @@ li {
   font-family: 'josefin sans', sans-serif;
 }
 
+p {
+  @apply text-lg font-light;
+}
+
 .projetos-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -50,7 +54,7 @@ li {
 .title {
   font-family: Modernline, sans-serif;
   font-variant-ligatures: additional-ligatures;
-  @apply font-thin pt-8 py-12 text-6xl
+  @apply font-thin pt-12 py-6 text-6xl
     text-slate-600 text-center;
 }
 
@@ -91,10 +95,18 @@ li {
   @apply invisible;
 }
 
+.limit-title {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .limit-paragraph {
   display: -webkit-box;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

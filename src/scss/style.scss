@@ -22,8 +22,7 @@
 }
 
 * {
-  hyphens: auto;
-  @apply text-slate-600 box-border m-0 p-0 text-justify;
+  @apply text-slate-600 box-border m-0 p-0;
 }
 
 h1,
@@ -37,8 +36,12 @@ li {
   font-family: 'josefin sans', sans-serif;
 }
 
+.bg-dark {
+  background-color: #07020f;
+}
+
 p {
-  @apply text-lg font-light;
+  @apply text-base font-light;
 }
 
 .projetos-container {
@@ -54,23 +57,23 @@ p {
 .title {
   font-family: Modernline, sans-serif;
   font-variant-ligatures: additional-ligatures;
-  @apply font-thin pt-12 py-6 text-6xl
+  @apply font-thin pt-4 py-8 text-6xl
     text-slate-600 text-center;
 }
 
 .logo {
   font-family: Amsterdam, sans-serif;
   font-size: 10px;
-  @apply font-bold z-30;
+  @apply font-bold;
 }
 
 .menu {
-  @apply fixed w-full top-0;
+  @apply z-30 fixed w-full top-0;
 }
 
 .menu-open,
 .menu-close {
-  @apply bg-white fixed w-full h-full flex p-4 text-center duration-300;
+  @apply z-20 bg-white w-full h-full top-0 fixed flex p-4 text-center duration-300;
 
   ul {
     max-width: 300px;
@@ -106,9 +109,19 @@ p {
 .limit-paragraph {
   display: -webkit-box;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+@media (min-width: 1280px) {
+  .limit-paragraph {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 
 .desktop-img {

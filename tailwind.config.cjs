@@ -2,17 +2,15 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    maxWidth: {
-      ' fullhd': '1920px',
-      'max-w-max': 'max-content',
-      'max-w-fit': 'fit-content',
-      'max-w-prose': '65ch',
-      'max-w-screen-sm': '640px',
-      'max-w-screen-md': '768px',
-      'max-w-screen-lg': '1024px',
-      'max-w-screen-xl': '1280px',
-      'max-w-screen-2xl': '1536px',
+    screens: {
+      xxs: '320px',
+      xs: '400px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
     },
+
     extend: {},
   },
   plugins: [],

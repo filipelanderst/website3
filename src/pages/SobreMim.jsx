@@ -11,7 +11,7 @@ const SobreMim = () => {
         <strong>Javascript</strong>, <strong>React</strong>,{' '}
         <strong>Styled-Components</strong>, <strong>Tailwind</strong> e{' '}
         <strong>Sass</strong>, tendo projetos em meu{' '}
-        <strong className='text-red-500 hover:text-red-300 '>
+        <strong className='text-rose-500 hover:text-rose-300 '>
           {' '}
           <a
             href='https://github.com/flx-lander7'
@@ -30,7 +30,7 @@ const SobreMim = () => {
         um desenvolvedor Fullstack sabendo trabalhar em todas as pontas do
         processo e tendo a capacidade de entregar uma solução completa. Você
         pode entrar em contato comigo através do meu{' '}
-        <strong className='text-red-500 hover:text-red-300 '>
+        <strong className='text-rose-500 hover:text-rose-300 '>
           {' '}
           <a
             href='https://linkedin.com/in/filipelander'

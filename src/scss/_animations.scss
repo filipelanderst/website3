@@ -1,0 +1,42 @@
+/* Animation class */
+
+.anima-fast {
+  animation-name: anima;
+  animation-duration: 600ms;
+}
+
+.anima {
+  animation-name: anima;
+  animation-duration: 1.2s;
+}
+
+.anima-slow {
+  animation-name: anima;
+  animation-duration: 2.4s;
+}
+
+// .anima-left {
+//   animation-name: animaLeft;
+//   animation-duration: 2s;
+// }
+
+@keyframes anima {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// @keyframes animaLeft {
+//   from {
+//     opacity: 0;
+//     margin-right: 1000px;
+//   }
+
+//   to {
+//     opacity: 1;
+//     margin: auto;
+//   }
+// }

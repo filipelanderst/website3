@@ -26,7 +26,7 @@ const Header = () => {
       </div>
 
       <div className={isOpen ? 'menu-open' : 'menu-close'}>
-        <ul>
+        <ul className='mt-8'>
           <li onClick={handleMenu}>
             <Link to='/'>Início</Link>
           </li>

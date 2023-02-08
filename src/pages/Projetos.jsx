@@ -36,7 +36,7 @@ const Projetos = () => {
             usuários uma plataforma de avaliação de filmes. Com uma interface
             intuitiva e de fácil navegação, os usuários tem acesso a informações
             dos top 40 filmes da{' '}
-            <strong className='text-red-500 hover:text-red-300 font-semibold '>
+            <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
               <a href='https://www.imdb.com/' target='_blank'>
                 IMDB
               </a>
@@ -85,7 +85,7 @@ const Projetos = () => {
               href='https://www.worldsbestcities.com/rankings/worlds-best-cities/'
               target='_blank'
             >
-              <strong className='text-red-500 hover:text-red-300 font-semibold '>
+              <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
                 Best Cities
               </strong>
             </a>{' '}
@@ -97,7 +97,7 @@ const Projetos = () => {
               href='https://www.worldsbestcities.com/methodology/'
               target='_blank'
             >
-              <strong className='text-red-500 hover:text-red-300 font-semibold '>
+              <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
                 clicando aqui.
               </strong>
             </a>
@@ -135,7 +135,7 @@ const Projetos = () => {
           <p className='limit-paragraph my-8 text-slate-600  '>
             <strong className='font-semibold'>'Nosso planeta'</strong> foi
             inspirado na série{' '}
-            <strong className='text-red-500 hover:text-red-300 font-semibold '>
+            <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
               <a href='https://www.ourplanet.com/pt/' target='_blank'>
                 Our Planet.
               </a>
@@ -143,13 +143,13 @@ const Projetos = () => {
             Essa série fornece vídeos explicativos e detalhados sobre os
             diferentes climas do planeta terra, as diferentes formas de vida e
             suas peculiaridades. Os vídeos estão disponíveis no{' '}
-            <strong className='text-red-500 hover:text-red-300 font-semibold'>
+            <strong className='text-rose-500 hover:text-rose-300 font-semibold'>
               <a href='https://www.youtube.com/' target='_blank'>
                 YOUTUBE
               </a>
             </strong>{' '}
             e também na{' '}
-            <strong className='text-red-500 hover:text-red-300 font-semibold'>
+            <strong className='text-rose-500 hover:text-rose-300 font-semibold'>
               <a href='https://www.netflix.com/br/' target='_blank'>
                 NETFLIX
               </a>
@@ -285,7 +285,7 @@ const Projetos = () => {
               Web Design Responsivo
             </strong>{' '}
             da{' '}
-            <strong className='text-red-500 hover:text-red-300 font-semibold'>
+            <strong className='text-rose-500 hover:text-rose-300 font-semibold'>
               <a href='https://www.freecodecamp.org/'>freeCodeCamp</a>
             </strong>{' '}
           </p>

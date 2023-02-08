@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './animations';
+
 /* Global Styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
@@ -36,6 +38,11 @@ li {
   font-family: 'josefin sans', sans-serif;
 }
 
+// .home-container {
+//   animation-name: anima;
+//   animation-duration: 2s;
+// }
+
 .bg-dark {
   background-color: #07020f;
 }
@@ -64,6 +71,23 @@ p {
   font-variant-ligatures: additional-ligatures;
   @apply font-thin pt-4 py-8 text-6xl
     text-slate-600 text-center;
+}
+
+.modernline {
+  font-family: modernline;
+}
+
+// .title-transparent {
+//   color: transparent;
+//   background: url('https://images.unsplash.com/photo-1531160492875-2a09eb0cd73b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80');
+//   background-size: contain;
+//   background-clip: text;
+//   -webkit-background-clip: text;
+// }
+
+.front-end {
+  font-family: Modernline, sans-serif;
+  font-variant-ligatures: additional-ligatures;
 }
 
 .logo {
@@ -101,6 +125,13 @@ p {
 
 .hide-logo {
   @apply invisible;
+}
+
+.perfil-img {
+  width: 230px;
+  padding: 40px 0px;
+  position: absolute;
+  right: 0;
 }
 
 .limit-title {

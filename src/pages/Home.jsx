@@ -21,7 +21,7 @@ const Home = () => {
           </span>
           Lander
         </h1>
-        <h3 className='modernline mt-56 mr-28 absolute right-0 text-2xl font-light text-slate-800'>
+        <h3 className='modernline mt-56 mr-28 absolute right-0 text-2xl font-light text-slate-500'>
           S_1frontend{' '}
           <span
             className='modernline hidden xs:inline-block
@@ -31,7 +31,7 @@ const Home = () => {
           </span>
         </h3>
 
-        <div className='anima-slow w-6 absolute left-0 bottom-0 mx-6 pb-24'>
+        <div className='anima-slow w-6 absolute left-0 bottom-0 mx-6 pb-12'>
           <img src={Github} alt='' className='ml-4 py-2' />
           <img src={LinkedIn} alt='' className='ml-4 py-2' />
         </div>

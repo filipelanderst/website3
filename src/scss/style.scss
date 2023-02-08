@@ -38,11 +38,6 @@ li {
   font-family: 'josefin sans', sans-serif;
 }
 
-// .home-container {
-//   animation-name: anima;
-//   animation-duration: 2s;
-// }
-
 .bg-dark {
   background-color: #07020f;
 }
@@ -55,10 +50,6 @@ p {
 .home-container {
   max-width: 1920px;
   margin: 0px auto;
-}
-
-.home-container {
-  min-height: 100vh;
 }
 
 .sobremim-container {
@@ -128,7 +119,7 @@ p {
 }
 
 .perfil-img {
-  width: 230px;
+  width: 200px;
   padding: 40px 0px;
   position: absolute;
   right: 0;

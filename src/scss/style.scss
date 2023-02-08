@@ -87,6 +87,16 @@ p {
   @apply font-bold;
 }
 
+.quote {
+  background-color: red;
+  width: 55vw;
+  max-heigt: 400px;
+  min-height: 400px;
+  position: relative;
+  padding-top: 60vh;
+  margin-left: 10vh;
+}
+
 .menu {
   @apply z-30 fixed w-full top-0;
 }
@@ -123,6 +133,20 @@ p {
   padding: 40px 0px;
   position: absolute;
   right: 0;
+}
+
+@media (min-width: 820px) {
+  .perfil-img {
+    margin: 5vh auto;
+    width: 360px;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: static;
+
+    img {
+      border-radius: 50%;
+    }
+  }
 }
 
 .limit-title {

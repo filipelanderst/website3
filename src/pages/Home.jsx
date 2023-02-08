@@ -38,7 +38,7 @@ const Home = () => {
           </span>
         </h3>
 
-        <div className='hidden xs:block mdlg:grid mdlg:grid-cols-2 gap-4 anima-slow w-6 mdlg:w-16 absolute left-0 bottom-0 ml-[5vh] mdlg:ml-[50px] pb-[20vh]'>
+        <div className='anima-slow hidden xxs:block mdlg:grid mdlg:grid-cols-2 gap-4 w-6 mdlg:w-16 absolute left-0 bottom-0 ml-[5vh] mdlg:ml-[50px] pb-[20vh]'>
           <a
             href='https://github.com/flx-lander7'
             target='_blank'

@@ -2,17 +2,17 @@
 
 .anima-fast {
   animation-name: anima;
-  animation-duration: 500ms;
+  animation-duration: 300ms;
 }
 
 .anima {
   animation-name: anima;
-  animation-duration: 1s;
+  animation-duration: 600ms;
 }
 
 .anima-slow {
   animation-name: anima;
-  animation-duration: 2s;
+  animation-duration: 1.2s;
 }
 
 @keyframes anima {

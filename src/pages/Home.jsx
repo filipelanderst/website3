@@ -4,8 +4,15 @@ import PerfilDesktop from '../imgs/perfilDesktop.avif';
 import Github from '../icons/github.svg';
 import LinkedIn from '../icons/linkedIn.svg';
 import Technologies from '../components/Technologies';
+import Footer from '../components/Footer';
 
 const Home = () => {
+  function A() {
+    console.log('Oi');
+  }
+
+  A();
+
   return (
     <div className='home-container'>
       <div className='anima-fast w-40 mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] mdlg:-[0vh]'>
@@ -38,7 +45,7 @@ const Home = () => {
           </span>
         </h3>
 
-        <div className='anima-slow mdlg:grid mdlg:grid-cols-2 gap-4 w-6 mdlg:w-16 absolute left-0 top-0 ml-[10vw] mdlg:ml-[50px] pt-[80vh]'>
+        <div className='anima-slow mdlg:grid mdlg:grid-cols-2 gap-4 w-6 mdlg:w-16 absolute left-0 top-0 ml-[10vw] mdlg:ml-[50px] pt-[75vh]'>
           <a
             href='https://github.com/flx-lander7'
             target='_blank'
@@ -56,10 +63,14 @@ const Home = () => {
           </a>
         </div>
 
-        <div className='hidden mdlg:block grid grid-cols-2 anima-slow absolute right-0 top-0 mr-[275px] pt-[80vh]'>
+        <div className='hidden mdlg:block anima-slow absolute right-0 top-0 mr-[275px] pt-[75vh]'>
           <Technologies />
         </div>
       </div>
+
+      <footer className='hidden xxs:block'>
+        <Footer />
+      </footer>
     </div>
   );
 };

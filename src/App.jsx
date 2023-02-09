@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Projetos from './pages/Projetos';
@@ -33,8 +32,6 @@ const App = () => {
           <Route path='/VioloesCardin' element={<VioloesCardin />}></Route>
           <Route path='/PgHomenagem' element={<PgHomenagem />}></Route>
         </Routes>
-
-        <Footer />
       </Router>
     </div>
   );

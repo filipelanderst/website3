@@ -6,13 +6,14 @@ import nossoPlanetaImg from '../imgs/nossoPlaneta(desktop1).avif';
 import freeCodeCamp5Img from '../imgs/freeCodeCamp5(desktop1).avif';
 import freeCodeCamp3Img from '../imgs/freeCodeCamp3(desktop).avif';
 import freeCodeCamp1Img from '../imgs/freeCodeCamp1(desktop).avif';
+import Footer from '../components/Footer';
 
 const Projetos = () => {
   return (
-    <div className='projetos-container'>
+    <div className='projetos-container relative pb-16 lg:pb-24'>
       <h1 className='limit-title title -ml-60'>S_3projetos</h1>
 
-      <section className=' py-20 pt-10 lg:pt-20 -mt-10 lg:mt-0  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
+      <section className=' py-20 pt-10 lg:pt-20 lg:mt-0 mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
         <div className='desktop-img mb-8 lg:mb-0'>
           <Link to='/BestMovies'>
             <img src={bestMoviesImg} alt='' />
@@ -300,6 +301,10 @@ const Projetos = () => {
           </div>
         </div>
       </section>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };

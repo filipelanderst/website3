@@ -60,7 +60,7 @@ p {
 .title {
   font-family: Modernline, sans-serif;
   font-variant-ligatures: additional-ligatures;
-  @apply font-thin pt-4 py-8 text-6xl text-slate-600 text-center;
+  @apply font-thin pt-4 py-8 text-[3.5rem] text-slate-600 text-center;
 }
 
 .modernline {

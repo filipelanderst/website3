@@ -2,11 +2,9 @@ import React from 'react';
 
 const SobreMim = () => {
   return (
-    <div className='sobremim-container max-w-[700px]'>
+    <div className='sobremim-container pb-8 '>
       <section>
-        <h1 className='anima-left bg-black  mx-8 title mt-14 -mb-4'>
-          About me...
-        </h1>
+        <h1 className='anima-left title mt-14 -mb-4'>About me...</h1>
 
         <p className='anima-right mt-6 px-8  text-slate-600  '>
           Tenho 35 anos e comecei meus estudos em frontend em janeiro de 2022.

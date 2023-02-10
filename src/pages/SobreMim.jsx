@@ -5,9 +5,9 @@ const SobreMim = () => {
   return (
     <div className='sobremim-container relative pb-40 min-h-[92vh]'>
       <section>
-        <h1 className='title mt-14 -mb-4'>About me...</h1>
+        <h1 className='anima-left title mt-14 -mb-4'>About me...</h1>
 
-        <p className='mt-6 px-6  text-slate-600  '>
+        <p className='anima-right mt-6 px-6  text-slate-600  '>
           Tenho 35 anos e comecei meus estudos em frontend em janeiro de 2022.
           Sei trabalhar com <strong>HTML</strong>, <strong>CSS</strong>,{' '}
           <strong>Javascript</strong>, <strong>React</strong>,{' '}
@@ -47,7 +47,7 @@ const SobreMim = () => {
         </p>
       </section>
 
-      <footer className='absolute bottom-0 w-full'>
+      <footer className='anima absolute bottom-0 w-full'>
         <Footer />
       </footer>
     </div>

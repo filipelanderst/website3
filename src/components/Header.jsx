@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className='Header-container'>
+    <div className='anima Header-container'>
       <div className='menu bg-white text-sm flex justify-between items-center max-w-fullhd mx-auto px-2 -mt-2 '>
         <Link className={isOpen ? 'hide-logo' : ''} to='/'>
           <div className='logo py-3 mt-2'>FL</div>

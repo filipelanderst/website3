@@ -1,23 +1,20 @@
 import React from 'react';
 import PerfilMobile from '../imgs/perfilMobile.avif';
 import PerfilDesktop from '../imgs/perfilDesktop.avif';
-import Github from '../icons/github.svg';
-import LinkedIn from '../icons/linkedIn.svg';
 import Technologies from '../components/Technologies';
-import Footer from '../components/Footer';
+
+import LinkedInGithub from '../components/LinkedInGithub';
 
 const Home = () => {
-  setTimeout(() => {}, 100);
-
   return (
     <div className='home-container'>
-      <div className='anima-top w-40 mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] mdlg:-[0vh]'>
-        <img src={PerfilMobile} alt='' loading='lazy' className='mdlg:hidden' />
+      <div className='anima w-40 mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] mdlg:-[0vh]'>
+        <img src={PerfilMobile} alt='' className='mdlg:hidden' loading='lazy' />
         <img
           src={PerfilDesktop}
           alt=''
-          loading='lazy'
           className='hidden mdlg:block rounded-full'
+          loading='lazy'
         />
       </div>
       <div className='mt-[12vh] mdlg:mt-[15vh]'>
@@ -39,32 +36,9 @@ const Home = () => {
             developer
           </span>
         </h3>
-
-        <div className='anima-bottom mdlg:grid mdlg:grid-cols-2 gap-4 w-6 mdlg:w-16 absolute left-0 top-0 ml-[10vw] mdlg:ml-[50px] pt-[75vh]'>
-          <a
-            href='https://github.com/flx-lander7'
-            target='_blank'
-            translate='no'
-          >
-            <img src={Github} alt='github icon' className='ml-4 py-2' />
-          </a>
-
-          <a
-            href='https://linkedin.com/in/filipelander'
-            target='_blank'
-            translate='no'
-          >
-            <img src={LinkedIn} alt='linkedIn icon' className='ml-4 py-2' />
-          </a>
-        </div>
-
-        <div className='hidden mdlg:block  absolute right-0 top-0 mr-[275px] pt-[75vh]'>
-          <Technologies />
-        </div>
+        <LinkedInGithub />
+        <Technologies />
       </div>
-      <footer className='anima hidden xs:block'>
-        <Footer />
-      </footer>
     </div>
   );
 };

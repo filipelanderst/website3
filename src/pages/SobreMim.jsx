@@ -1,18 +1,19 @@
 import React from 'react';
-import Footer from '../components/Footer';
 
 const SobreMim = () => {
   return (
-    <div className='sobremim-container relative pb-40 min-h-[92vh]'>
+    <div className='sobremim-container'>
       <section>
-        <h1 className='anima-left title mt-14 -mb-4'>About me...</h1>
+        <h1 className='anima-left max-w-[700px] mx-8 title mt-14 -mb-4'>
+          About me...
+        </h1>
 
-        <p className='anima-right mt-6 px-6  text-slate-600  '>
+        <p className='anima-right mt-6 px-8  text-slate-600  '>
           Tenho 35 anos e comecei meus estudos em frontend em janeiro de 2022.
           Sei trabalhar com <strong>HTML</strong>, <strong>CSS</strong>,{' '}
           <strong>Javascript</strong>, <strong>React</strong>,{' '}
-          <strong>Styled-Components</strong>, <strong>Tailwind</strong> e{' '}
-          <strong>Sass</strong>, tendo projetos em meu{' '}
+          <strong>Tailwind</strong> e <strong>Sass</strong>, tendo projetos em
+          meu{' '}
           <strong className='text-rose-500 hover:text-rose-300 '>
             {' '}
             <a
@@ -45,11 +46,10 @@ const SobreMim = () => {
           </strong>{' '}
           .
         </p>
+        {/* <footer className='max-w-[700px] bg-red-300 px-8 relative h-[50vh] w-full'>
+          <Footer />
+        </footer> */}
       </section>
-
-      <footer className='anima absolute bottom-0 w-full'>
-        <Footer />
-      </footer>
     </div>
   );
 };

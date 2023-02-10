@@ -1,25 +1,25 @@
 .anima {
-  animation: anima 500ms;
-}
-
-.anima-slow {
   animation: anima 1s;
 }
 
+.anima-slow {
+  animation: anima 2s;
+}
+
 .anima-left {
-  animation: anima-left ease 500ms;
+  animation: anima-left 1s;
 }
 
 .anima-right {
-  animation: anima-right ease 500ms;
+  animation: anima-right 1s;
 }
 
 .anima-top {
-  animation: anima-top ease 500ms;
+  animation: anima-top 1s;
 }
 
 .anima-bottom {
-  animation: anima-bottom ease 500ms;
+  animation: anima-bottom 1s;
 }
 
 /*
@@ -37,9 +37,18 @@
   }
 }
 
+@keyframes anima-perfil {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes anima-left {
   from {
-    transform: translateX(-5vw);
+    transform: translateX(-10vw);
     opacity: 0;
   }
   to {
@@ -50,7 +59,7 @@
 
 @keyframes anima-right {
   from {
-    transform: translateX(5vw);
+    transform: translateX(10vw);
     opacity: 0;
   }
   to {
@@ -61,7 +70,7 @@
 
 @keyframes anima-top {
   from {
-    transform: translateY(-5vh);
+    transform: translateY(-10vh);
     opacity: 0;
   }
   to {
@@ -72,7 +81,7 @@
 
 @keyframes anima-bottom {
   from {
-    transform: translateY(5vh);
+    transform: translateY(10vh);
     opacity: 0;
   }
   to {

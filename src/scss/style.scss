@@ -87,16 +87,6 @@ p {
   @apply font-bold;
 }
 
-.quote {
-  background-color: red;
-  width: 55vw;
-  max-heigt: 400px;
-  min-height: 400px;
-  position: relative;
-  padding-top: 60vh;
-  margin-left: 10vh;
-}
-
 .menu {
   @apply z-30 fixed w-full top-0;
 }

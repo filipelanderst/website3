@@ -7,15 +7,11 @@ import Technologies from '../components/Technologies';
 import Footer from '../components/Footer';
 
 const Home = () => {
-  function A() {
-    console.log('Oi');
-  }
-
-  A();
+  setTimeout(() => {}, 100);
 
   return (
     <div className='home-container'>
-      <div className='anima-fast w-40 mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] mdlg:-[0vh]'>
+      <div className='anima-top w-40 mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] mdlg:-[0vh]'>
         <img src={PerfilMobile} alt='' loading='lazy' className='mdlg:hidden' />
         <img
           src={PerfilDesktop}
@@ -24,9 +20,8 @@ const Home = () => {
           className='hidden mdlg:block rounded-full'
         />
       </div>
-
-      <div className='anima-slow mt-[12vh] mdlg:mt-[15vh]'>
-        <h1 className='mt-32 mdlg:mt-[-360px] lg:mt-[-320px] mr-28 mdlg:ml-[-320px] mdlg:text-center absolute mdlg:static right-0 text-5xl font-light text-slate-800'>
+      <div className='mt-[12vh] mdlg:mt-[15vh]'>
+        <h1 className='anima-left mt-32 mdlg:mt-[-360px] lg:mt-[-320px] mr-28 mdlg:ml-[-320px] mdlg:text-center absolute mdlg:static right-0 text-5xl font-light text-slate-800'>
           <span
             className='hidden xs:inline-block
         '
@@ -35,7 +30,7 @@ const Home = () => {
           </span>
           Lander
         </h1>
-        <h3 className='mt-40 modernline mdlg:-mt-4 mr-28 mdlg:ml-[-360px] mdlg:text-center absolute mdlg:static right-0 text-2xl font-light text-slate-500'>
+        <h3 className='anima-right mt-40 modernline mdlg:-mt-4 mr-28 mdlg:ml-[-360px] mdlg:text-center absolute mdlg:static right-0 text-2xl font-light text-slate-500'>
           S_1frontend{' '}
           <span
             className='modernline hidden xs:inline-block
@@ -45,7 +40,7 @@ const Home = () => {
           </span>
         </h3>
 
-        <div className='anima-slow mdlg:grid mdlg:grid-cols-2 gap-4 w-6 mdlg:w-16 absolute left-0 top-0 ml-[10vw] mdlg:ml-[50px] pt-[75vh]'>
+        <div className='anima-bottom mdlg:grid mdlg:grid-cols-2 gap-4 w-6 mdlg:w-16 absolute left-0 top-0 ml-[10vw] mdlg:ml-[50px] pt-[75vh]'>
           <a
             href='https://github.com/flx-lander7'
             target='_blank'
@@ -63,12 +58,11 @@ const Home = () => {
           </a>
         </div>
 
-        <div className='hidden mdlg:block anima-slow absolute right-0 top-0 mr-[275px] pt-[75vh]'>
+        <div className='hidden mdlg:block  absolute right-0 top-0 mr-[275px] pt-[75vh]'>
           <Technologies />
         </div>
       </div>
-
-      <footer className='hidden xxs:block'>
+      <footer className='anima hidden xs:block'>
         <Footer />
       </footer>
     </div>

@@ -1,25 +1,78 @@
-/* Animation class */
-
-.anima-fast {
-  animation-name: anima;
-  animation-duration: 300ms;
-}
-
 .anima {
-  animation-name: anima;
-  animation-duration: 600ms;
+  animation: anima 1.2s;
 }
 
-.anima-slow {
-  animation-name: anima;
-  animation-duration: 1.2s;
+.anima-left {
+  animation: anima-left 1.2s;
 }
+
+.anima-right {
+  animation: anima-right 1.2s;
+}
+
+.anima-top {
+  animation: anima-top 1.2s;
+}
+
+.anima-bottom {
+  animation: anima-bottom 1.2s;
+}
+
+/*
+*
+*** @keyframes ***
+*
+*/
 
 @keyframes anima {
   from {
     opacity: 0;
   }
   to {
+    opacity: 1;
+  }
+}
+
+@keyframes anima-left {
+  from {
+    transform: translateX(-20vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes anima-right {
+  from {
+    transform: translateX(20vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes anima-top {
+  from {
+    transform: translateY(-20vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes anima-bottom {
+  from {
+    transform: translateY(20vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
     opacity: 1;
   }
 }

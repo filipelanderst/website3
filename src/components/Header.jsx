@@ -20,7 +20,7 @@ const Header = () => {
           <MenuDesktop />
         </div>
 
-        <div className='anima-top lg:hidden pt-1 z-30'>
+        <div className='anima-top fixed right-0 lg:hidden pt-1 z-30'>
           <Hamburger size={22} toggled={isOpen} toggle={setOpen} />
         </div>
       </div>

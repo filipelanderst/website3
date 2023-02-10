@@ -2,9 +2,9 @@ import React from 'react';
 
 const SobreMim = () => {
   return (
-    <div className='sobremim-container fixed'>
+    <div className='sobremim-container max-w-[700px]'>
       <section>
-        <h1 className='anima-left max-w-[700px] mx-8 title mt-14 -mb-4'>
+        <h1 className='anima-left bg-black  mx-8 title mt-14 -mb-4'>
           About me...
         </h1>
 

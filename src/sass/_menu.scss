@@ -1,0 +1,31 @@
+.menu-open,
+.menu-close {
+  @apply z-20 bg-white w-full h-full top-0 fixed flex p-4 text-center duration-300;
+
+  ul {
+    max-width: 300px;
+    @apply mx-auto text-2xl p-4;
+
+    li {
+      @apply p-4 text-center;
+    }
+  }
+
+  img {
+    @apply mx-auto;
+  }
+}
+
+.menu-close {
+  margin-left: -1024px;
+}
+
+
+@media (min-width: 1024px) {
+
+  .menu-close,
+  .menu-open {
+    @apply hidden;
+  }
+
+}

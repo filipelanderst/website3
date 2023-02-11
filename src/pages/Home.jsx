@@ -2,7 +2,6 @@ import React from 'react';
 import PerfilMobile from '../imgs/perfilMobile.avif';
 import PerfilDesktop from '../imgs/perfilDesktop.avif';
 import Technologies from '../components/Technologies';
-
 import LinkedInGithub from '../components/LinkedInGithub';
 
 const Home = () => {

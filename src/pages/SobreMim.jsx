@@ -1,12 +1,15 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 const SobreMim = () => {
   return (
-    <div className='sobremim-container pb-8 '>
+    <div className='sobremim-container'>
       <section>
-        <h1 className='anima-left title mt-14 -mb-4'>About me...</h1>
+        <h1 className='anima-left modernline mt-14 font-thin pt-4 py-4 text-[3.5rem] text-slate-600 text-center'>
+          About me...
+        </h1>
 
-        <p className='anima-right mt-6 px-8  text-slate-600  '>
+        <p className='anima-right mt-4 px-8 text-slate-600  '>
           Tenho 35 anos e comecei meus estudos em frontend em janeiro de 2022.
           Sei trabalhar com <strong>HTML</strong>, <strong>CSS</strong>,{' '}
           <strong>Javascript</strong>, <strong>React</strong>,{' '}
@@ -44,9 +47,6 @@ const SobreMim = () => {
           </strong>{' '}
           .
         </p>
-        {/* <footer className='max-w-[700px] bg-red-300 px-8 relative h-[50vh] w-full'>
-          <Footer />
-        </footer> */}
       </section>
     </div>
   );

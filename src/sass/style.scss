@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import './animations';
+@import './menu';
+
+/* Global Styles */
+
+* {
+  @apply text-slate-600 box-border m-0 p-0;
+}
+
+@font-face {
+  font-family: Amsterdam;
+  src: url('../fonts/Amsterdam.ttf');
+}
+
+.amsterdam {
+  font-family: amsterdam;
+}
+
+
+@font-face {
+  font-family: Modernline;
+  src: url('../fonts/Modernline.otf');
+}
+
+.modernline {
+  font-family: modernline;
+}
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul,
+li {
+  font-family: 'josefin sans', sans-serif;
+}
+
+.bg-dark {
+  background-color: #07020f;
+}
+
+p {
+  @apply text-base font-light;
+}
+
+.projetos-container,
+.home-container {
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
+.sobremim-container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+
+.limit-title {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.limit-paragraph {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 1280px) {
+  .limit-paragraph {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

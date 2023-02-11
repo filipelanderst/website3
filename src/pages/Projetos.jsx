@@ -9,11 +9,13 @@ import freeCodeCamp1Img from '../imgs/freeCodeCamp1(desktop).avif';
 
 const Projetos = () => {
   return (
-    <div className='projetos-container relative pb-16 lg:pb-24'>
-      <h1 className='anima limit-title title -ml-60'>S_3projetos</h1>
+    <div className='projetos-container min-h-screen'>
+      <h1 className='anima limit-title modernline font-thin pt-4 py-8 text-[3.5rem] text-slate-600 text-center -ml-60'>
+        S_3projetos
+      </h1>
 
       <section className='py-20 pt-12 lg:pt-20 lg:mt-0 mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className=' anima desktop-img mb-8 lg:mb-0 '>
+        <div className=' anima max-w-[720px] mx-auto mb-8 lg:mb-0 '>
           <Link to='/BestMovies'>
             <img src={bestMoviesImg} alt='' loading='lazy' />
           </Link>
@@ -61,7 +63,7 @@ const Projetos = () => {
       </section>
 
       <section className='bg-dark py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima desktop-img mb-8 lg:mb-0'>
+        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
           <Link to='/MelhoresCidades'>
             <img src={melhoresCidadesImg} alt='' loading='lazy' />
           </Link>
@@ -119,7 +121,7 @@ const Projetos = () => {
       </section>
 
       <section className=' py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima desktop-img mb-8 lg:mb-0'>
+        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
           <Link to='/NossoPlaneta'>
             <img src={nossoPlanetaImg} alt='' loading='lazy' />
           </Link>
@@ -175,7 +177,7 @@ const Projetos = () => {
       </section>
 
       <section className='bg-dark py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima desktop-img mb-8 lg:mb-0'>
+        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
           <Link to='/StanislavAdamovich'>
             <img src={freeCodeCamp5Img} alt='' loading='lazy' />
           </Link>
@@ -224,7 +226,7 @@ const Projetos = () => {
       </section>
 
       <section className='bg-white py-20 -mt-10 lg:mt-0  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima desktop-img mb-8 lg:mb-0'>
+        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
           <Link to='/VioloesCardin'>
             <img src={freeCodeCamp3Img} alt='' loading='lazy' />
           </Link>
@@ -268,7 +270,7 @@ const Projetos = () => {
       </section>
 
       <section className='bg-dark py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima desktop-img mb-8 lg:mb-0'>
+        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
           <Link to='/PgHomenagem'>
             <img src={freeCodeCamp1Img} alt='' loading='lazy' />
           </Link>
@@ -312,10 +314,6 @@ const Projetos = () => {
           </div>
         </div>
       </section>
-
-      {/* <footer>
-        <Footer />
-      </footer> */}
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const MenuDesktop = () => {
   return (
     <div>
-      <ul className='anima-top flex items-center '>
+      <ul className='anima-top flex items-center px-4 pt-2'>
         <li className='mr-6 border-b-2 border-transparent hover:border-slate-600'>
           <Link to='/'>Início</Link>
         </li>

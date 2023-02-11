@@ -11,16 +11,18 @@ const Header = () => {
   };
 
   return (
-    <div className='Header-container'>
-      <div className='menu bg-white text-sm flex justify-between items-center max-w-fullhd mx-auto px-2 -mt-2 '>
-        <Link className={isOpen ? 'hide-logo' : ''} to='/'>
-          <div className='anima-left logo py-3 mt-2'>FL</div>
+    <div className='Header-container '>
+      <div className='fixed w-screen top-0 z-30 bg-white flex justify-between items-center mx-auto px-4 -mt-2 '>
+        <Link className={isOpen ? 'invisible lg:visible' : ''} to='/'>
+          <div className='anima-left amsterdam text-xs font-bold py-3 mt-2'>
+            FL
+          </div>
         </Link>
         <div className='hidden lg:block pt-1'>
           <MenuDesktop />
         </div>
 
-        <div className='anima-top fixed right-0 lg:hidden pt-1 z-30'>
+        <div className='anima-top lg:hidden pt-1 z-30'>
           <Hamburger size={22} toggled={isOpen} toggle={setOpen} />
         </div>
       </div>

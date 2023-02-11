@@ -8,7 +8,7 @@ import Image4 from '../imgs/bestMovies(tablet2).avif';
 import Image5 from '../imgs/bestMovies(mobile1).avif';
 import Image6 from '../imgs/bestMovies(mobile2).avif';
 
-import HTML from '../icons/whiteHtml.svg';
+import HTML from '../icons/whiteHTML.svg';
 import JS from '../icons/whiteJS.svg';
 import iconReact from '../icons/whiteReact.svg';
 import Sass from '../icons/whiteSass.svg';

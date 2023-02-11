@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Next from '../icons/next.svg';
 import Previous from '../icons/previous.svg';
-import Desktop1 from '../imgs/bestMovies(desktop1).avif';
-import Desktop2 from '../imgs/bestMovies(desktop2).avif';
-import Tablet1 from '../imgs/bestMovies(tablet1).avif';
-import Tablet2 from '../imgs/bestMovies(tablet2).avif';
-import Mobile1 from '../imgs/bestMovies(mobile1).avif';
-import Mobile2 from '../imgs/bestMovies(mobile2).avif';
+import Image1 from '../imgs/bestMovies(desktop1).avif';
+import Image2 from '../imgs/bestMovies(desktop2).avif';
+import Image3 from '../imgs/bestMovies(tablet1).avif';
+import Image4 from '../imgs/bestMovies(tablet2).avif';
+import Image5 from '../imgs/bestMovies(mobile1).avif';
+import Image6 from '../imgs/bestMovies(mobile2).avif';
 
 import HTML from '../icons/whiteHtml.svg';
 import JS from '../icons/whiteJS.svg';
@@ -21,27 +21,26 @@ const BestMovies = () => {
       </h1>
 
       <div className=' bg-dark grid grid-cols-1 lg:grid-cols-2'>
-        <div className='anima-slow relative mx-auto max-w-[320px] sm:max-w-[480px] min-w-[320px] sm:min-w-[480px] max-h-[320px] min-h-[320px] sm:max-h-[480px] sm:min-h-[480px] flex justify-center items-center '>
+        <div className='anima-slow relative mx-auto max-w-[320px] sm:max-w-[480px] min-w-[320px] sm:min-w-[480px] max-h-[320px] min-h-[320px] sm:max-h-[560px] sm:min-h-[560px] flex justify-center items-center '>
           <img
-            src={Mobile2}
+            src={Image2}
             alt=''
-            className='max-h-[320px] sm:max-h-[480px]  p-8'
+            className='max-h-[360px] max-w-[420px] sm:max-h-[580px] sm:max-w-[640px]  p-8'
+            // className='w-full p-8'
           />
           <img
             src={Next}
             alt=''
-            className='absolute w-[12%] top-[42.5%] right-0'
+            className='absolute w-[15%] sm:w-[12%] top-[45%] -right-3 sm:-right-9'
           />
           <img
             src={Previous}
             alt=''
-            className='absolute w-[12%] top-[42.5%] left-0 '
+            className='absolute w-[15%] sm:w-[12%] top-[45%] -left-3 sm:-left-9'
           />
         </div>
         <div className='p-8'>
-          <h1 className='anima-right limit-title text-slate-100 text-4xl'>
-            Best Movies
-          </h1>
+          <h1 className='anima-right text-slate-100 text-4xl'>Best Movies</h1>
           <span className='anima-left block text-slate-300 -mt-1'>jan 23</span>
           <div className='anima-bottom my-4 flex '>
             <img src={HTML} alt='' className='w-5 mr-1' />
@@ -49,7 +48,7 @@ const BestMovies = () => {
             <img src={iconReact} alt='' className='w-5 mx-1' />
             <img src={Sass} alt='' className='w-5 ml-1' />
           </div>
-          <p className='anima-top limit-paragraph my-8 text-slate-300  '>
+          <p className='anima-top my-8 text-slate-300  '>
             <strong className='font-semibold text-slate-200'>
               Best Movies
             </strong>{' '}

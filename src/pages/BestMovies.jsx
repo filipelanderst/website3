@@ -23,7 +23,7 @@ const BestMovies = () => {
       <div className=' bg-dark grid grid-cols-1 lg:grid-cols-2'>
         <div className='anima-slow relative mx-auto max-w-[320px] sm:max-w-[480px] min-w-[320px] sm:min-w-[480px] max-h-[320px] min-h-[320px] sm:max-h-[480px] sm:min-h-[480px] flex justify-center items-center '>
           <img
-            src={Mobile1}
+            src={Mobile2}
             alt=''
             className='max-h-[320px] sm:max-h-[480px]  p-8'
           />
@@ -69,7 +69,7 @@ const BestMovies = () => {
           </p>
 
           <p className='anima-right limit-title text-slate-100'>
-            <strong className='text-cyan-300 text-lg'>
+            <strong className='text-cyan-300 hover:text-cyan-100 text-lg'>
               <a
                 href='https://flx-react3-best-movies.vercel.app/'
                 target='_blank'
@@ -86,7 +86,7 @@ const BestMovies = () => {
           </p>
 
           <p className='anima-left limit-title text-slate-100'>
-            <strong className='text-cyan-300 text-lg'>
+            <strong className='text-cyan-300 hover:text-cyan-100 text-lg'>
               <a
                 href='https://github.com/flx-lander7/flx-react3__bestMovies'
                 target='_blank'

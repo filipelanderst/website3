@@ -4,7 +4,7 @@ import Previous from '../icons/previous.svg';
 import Desktop1 from '../imgs/bestMovies(desktop1).avif';
 import Desktop2 from '../imgs/bestMovies(desktop2).avif';
 import Tablet1 from '../imgs/bestMovies(tablet1).avif';
-import Tablet2 from '../imgs/bestMovies(Tablet2).avif';
+import Tablet2 from '../imgs/bestMovies(tablet2).avif';
 import Mobile1 from '../imgs/bestMovies(mobile1).avif';
 import Mobile2 from '../imgs/bestMovies(mobile2).avif';
 

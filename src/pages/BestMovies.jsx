@@ -11,7 +11,7 @@ import Image6 from '../imgs/bestMovies(mobile2).avif';
 import HTML from '../icons/html.svg';
 import JS from '../icons/js.svg';
 import iconReact from '../icons/react.svg';
-import Sass from '../icons/Sass.svg';
+import Sass from '../icons/sass.svg';
 import Footer from '../components/Footer';
 
 const BestMovies = () => {

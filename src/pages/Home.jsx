@@ -3,6 +3,7 @@ import PerfilMobile from '../imgs/perfilMobile.avif';
 import PerfilDesktop from '../imgs/perfilDesktop.avif';
 import Technologies from '../components/Technologies';
 import LinkedInGithub from '../components/LinkedInGithub';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
           </span>
           Lander
         </h1>
-        <h3 className='anima-right mt-40 modernline mdlg:-mt-4 mr-28 mdlg:ml-[-360px] mdlg:text-center absolute mdlg:static right-0 text-2xl font-light text-slate-500'>
+        <h3 className='anima-right mt-40 modernline mdlg:-mt-4 mr-28 mdlg:ml-[-360px] mdlg:text-center absolute mdlg:static right-0 text-2xl font-light text-slate-600'>
           S_1frontend{' '}
           <span
             className='modernline hidden xs:inline-block
@@ -36,6 +37,10 @@ const Home = () => {
         </h3>
         <LinkedInGithub />
         <Technologies />
+
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );

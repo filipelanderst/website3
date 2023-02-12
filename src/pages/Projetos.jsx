@@ -9,44 +9,21 @@ import freeCodeCamp1Img from '../imgs/freeCodeCamp1(desktop).avif';
 
 const Projetos = () => {
   return (
-    <div className='bg-green-300'>
-      <h1 className='bg-red-300 anima limit-title modernline font-thin min-h-[120px] max-h-[120px] text-[3.5rem] text-slate-600 text-center pt-2 -ml-60'>
+    <div className=''>
+      <h1 className='anima-slow anima limit-title modernline font-thin min-h-[120px] max-h-[120px] text-[3.5rem] text-slate-800 text-center pt-2 -ml-60'>
         S_3projetos
       </h1>
-
-      <section className='bg-blue-200 '>
-        <div className='min-h-[200px] max-h-[200px] flex justify-center items-center'>
-          <Link to='/BestMovies'>
-            <img
-              src={bestMoviesImg}
-              alt=''
-              loading='lazy'
-              className='min-h-[175px] max-h-[175px] xxs:max-h-[220px] xxs:min-h-[200px]'
-            />
-          </Link>
-        </div>
-
-        <div className=''>
-          <div className=''>
-            <h1 className='' translate='no'>
-              <Link to='/BestMovies'>Best Movies</Link>
-            </h1>
-            <p className=''>jan 23</p>
-          </div>
-        </div>
-      </section>
-
-      {/* <section className='py-20 pt-12 lg:pt-20 lg:mt-0 mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className=' anima max-w-[720px] mx-auto mb-8 lg:mb-0 '>
+      <section className='py-20 pt-12 xl:pt-20 xl:mt-0 -mt-10 mx-auto xl:relative xl:grid xl:grid-cols-2 items-center'>
+        <div className=' anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px]   mx-auto mb-8 xl:mb-0 '>
           <Link to='/BestMovies'>
             <img src={bestMoviesImg} alt='' loading='lazy' />
           </Link>
         </div>
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
-          <div className='lg:absolute lg:top-0 lg:-mt-4'>
+          <div className='xl:absolute xl:top-0 xl:-mt-4'>
             <h1
-              className='anima-right limit-title text-4xl lg:mt-24 text-slate-800'
+              className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
               <Link to='/BestMovies'> Best Movies</Link>
@@ -62,7 +39,7 @@ const Projetos = () => {
             usuários uma plataforma de avaliação de filmes. Com uma interface
             intuitiva e de fácil navegação, os usuários tem acesso a informações
             dos top 40 filmes da{' '}
-            <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
+            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
               <a href='https://www.imdb.com/' target='_blank'>
                 IMDB
               </a>
@@ -73,7 +50,7 @@ const Projetos = () => {
             uma performance ótima e um código escalável."
           </p>
 
-          <div className='anima-left lg:pb-24 bottom-0 lg:absolute lg:-mb-2'>
+          <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
               to='/BestMovies'
               className='bg-white text-slate-900 font-semibold border-2 border-slate-900 px-12 py-2 rounded-md hover:bg-slate-900 hover:text-white'
@@ -83,18 +60,17 @@ const Projetos = () => {
           </div>
         </div>
       </section>
-
-      <section className='bg-dark py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
+      <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
+        <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
           <Link to='/MelhoresCidades'>
             <img src={melhoresCidadesImg} alt='' loading='lazy' />
           </Link>
         </div>
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
-          <div className='lg:absolute lg:top-0 lg:-mt-4'>
+          <div className='xl:absolute xl:top-0 xl:-mt-4'>
             <h1
-              className=' anima-right limit-title text-4xl lg:mt-24 text-slate-100'
+              className=' anima-right limit-title text-4xl xl:mt-24 text-slate-100'
               translate='no'
             >
               <Link to='/MelhoresCidades'>Melhores Cidades</Link>
@@ -113,7 +89,7 @@ const Projetos = () => {
               href='https://www.worldsbestcities.com/rankings/worlds-best-cities/'
               target='_blank'
             >
-              <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
+              <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
                 Best Cities
               </strong>
             </a>{' '}
@@ -125,13 +101,13 @@ const Projetos = () => {
               href='https://www.worldsbestcities.com/methodology/'
               target='_blank'
             >
-              <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
+              <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
                 clicando aqui.
               </strong>
             </a>
           </p>
 
-          <div className='anima-left lg:pb-24 bottom-0 lg:absolute lg:-mb-2'>
+          <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
               to='/MelhoresCidades'
               className='bg-dark text-white font-semibold border-2 border-dark px-12 py-2 rounded-md hover:bg-white hover:text-slate-800'
@@ -141,18 +117,17 @@ const Projetos = () => {
           </div>
         </div>
       </section>
-
-      <section className=' py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
+      <section className=' py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
+        <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
           <Link to='/NossoPlaneta'>
             <img src={nossoPlanetaImg} alt='' loading='lazy' />
           </Link>
         </div>
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
-          <div className='lg:absolute lg:top-0 lg:-mt-4'>
+          <div className='xl:absolute xl:top-0 xl:-mt-4'>
             <h1
-              className='anima-right limit-title text-4xl lg:mt-24 text-slate-800'
+              className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
               <Link to='/NossoPlaneta'>Nosso Planeta</Link>
@@ -165,7 +140,7 @@ const Projetos = () => {
           <p className='anima-right limit-paragraph my-8 text-slate-600  '>
             <strong className='font-semibold'>'Nosso planeta'</strong> foi
             inspirado na série{' '}
-            <strong className='text-rose-500 hover:text-rose-300 font-semibold '>
+            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
               <a href='https://www.ourplanet.com/pt/' target='_blank'>
                 Our Planet.
               </a>
@@ -173,13 +148,13 @@ const Projetos = () => {
             Essa série fornece vídeos explicativos e detalhados sobre os
             diferentes climas do planeta terra, as diferentes formas de vida e
             suas peculiaridades. Os vídeos estão disponíveis no{' '}
-            <strong className='text-rose-500 hover:text-rose-300 font-semibold'>
+            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold'>
               <a href='https://www.youtube.com/' target='_blank'>
                 YOUTUBE
               </a>
             </strong>{' '}
             e também na{' '}
-            <strong className='text-rose-500 hover:text-rose-300 font-semibold'>
+            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold'>
               <a href='https://www.netflix.com/br/' target='_blank'>
                 NETFLIX
               </a>
@@ -187,7 +162,7 @@ const Projetos = () => {
             .
           </p>
 
-          <div className='anima-left lg:pb-24 bottom-0 lg:absolute lg:-mb-2'>
+          <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
               to='/NossoPlaneta'
               className='bg-white text-slate-900 font-semibold border-2 border-slate-900 px-12 py-2 rounded-md hover:bg-slate-900 hover:text-white'
@@ -197,18 +172,17 @@ const Projetos = () => {
           </div>
         </div>
       </section>
-
-      <section className='bg-dark py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
+      <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
+        <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
           <Link to='/StanislavAdamovich'>
             <img src={freeCodeCamp5Img} alt='' loading='lazy' />
           </Link>
         </div>
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
-          <div className='lg:absolute lg:top-0 lg:-mt-4'>
+          <div className='xl:absolute xl:top-0 xl:-mt-4'>
             <h1
-              className='anima-right limit-title text-4xl lg:mt-24 text-slate-100'
+              className='anima-right limit-title text-4xl xl:mt-24 text-slate-100'
               translate='no'
             >
               <Link to='/StanislavAdamovich'>Stanislav Adamovich</Link>
@@ -236,7 +210,7 @@ const Projetos = () => {
             com as principais tecnologias web do mercado.
           </p>
 
-          <div className='anima-left lg:pb-24 bottom-0 lg:absolute lg:-mb-2'>
+          <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
               to='/StanislavAdamovich'
               className='bg-dark text-white font-semibold border-2 border-dark px-12 py-2 rounded-md hover:bg-white hover:text-slate-800'
@@ -246,18 +220,17 @@ const Projetos = () => {
           </div>
         </div>
       </section>
-
-      <section className='bg-white py-20 -mt-10 lg:mt-0  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
+      <section className='bg-white py-20 -mt-10 xl:mt-0  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
+        <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
           <Link to='/VioloesCardin'>
             <img src={freeCodeCamp3Img} alt='' loading='lazy' />
           </Link>
         </div>
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
-          <div className='lg:absolute lg:top-0 lg:-mt-4'>
+          <div className='xl:absolute xl:top-0 xl:-mt-4'>
             <h1
-              className='anima-right limit-title text-4xl lg:mt-24 text-slate-800'
+              className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
               <Link to='/VioloesCardin'> Violões Cardin</Link>
@@ -280,7 +253,7 @@ const Projetos = () => {
             nos maiores palcos do mundo.
           </p>
 
-          <div className='anima-left lg:pb-24 bottom-0 lg:absolute lg:-mb-2'>
+          <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
               to='/VioloesCardin'
               className='bg-white text-slate-900 font-semibold border-2 border-slate-900 px-12 py-2 rounded-md hover:bg-slate-900 hover:text-white'
@@ -290,18 +263,17 @@ const Projetos = () => {
           </div>
         </div>
       </section>
-
-      <section className='bg-dark py-20  mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
-        <div className='anima max-w-[720px] mx-auto mb-8 lg:mb-0'>
+      <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
+        <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
           <Link to='/PgHomenagem'>
             <img src={freeCodeCamp1Img} alt='' loading='lazy' />
           </Link>
         </div>
 
         <div className='px-8 max-w-max-w-screen-md mx-auto'>
-          <div className='lg:absolute lg:top-0 lg:-mt-4'>
+          <div className='xl:absolute xl:top-0 xl:-mt-4'>
             <h1
-              className='anima-right limit-title text-4xl lg:mt-24 text-slate-100'
+              className='anima-right limit-title text-4xl xl:mt-24 text-slate-100'
               translate='no'
             >
               <Link to='/PgHomenagem'>Página de Homenagem</Link>
@@ -321,12 +293,12 @@ const Projetos = () => {
               Web Design Responsivo
             </strong>{' '}
             da{' '}
-            <strong className='text-rose-500 hover:text-rose-300 font-semibold'>
+            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold'>
               <a href='https://www.freecodecamp.org/'>freeCodeCamp</a>
             </strong>{' '}
           </p>
 
-          <div className='anima-left lg:pb-24 bottom-0 lg:absolute lg:-mb-2'>
+          <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
               to='/PgHomenagem'
               className='bg-dark text-white font-semibold border-2 border-dark px-12 py-2 rounded-md hover:bg-white hover:text-slate-800'
@@ -335,7 +307,7 @@ const Projetos = () => {
             </Link>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 };

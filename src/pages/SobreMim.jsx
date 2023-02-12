@@ -5,7 +5,7 @@ const SobreMim = () => {
   return (
     <div className='sobremim-container'>
       <section>
-        <h1 className='anima-left limit-title modernline font-thin min-h-[100px] max-h-[100px] text-[3.5rem] text-slate-600 text-center pt-3 -ml-60'>
+        <h1 className='anima-left limit-title modernline font-thin min-h-[100px] max-h-[100px] text-[3.5rem] text-slate-800 text-center pt-3 -ml-60'>
           <span className='modernline -mr-1'>S_3</span>sobre mim
         </h1>
 
@@ -15,7 +15,7 @@ const SobreMim = () => {
           <strong>Javascript</strong>, <strong>React</strong>,{' '}
           <strong>Tailwind</strong> e <strong>Sass</strong>, tendo projetos em
           meu{' '}
-          <strong className='text-cyan-400 hover:text-cyan-200 '>
+          <strong className='text-cyan-300 hover:text-cyan-100 '>
             {' '}
             <a
               href='https://github.com/flx-lander7'
@@ -35,7 +35,7 @@ const SobreMim = () => {
           Fullstack sabendo trabalhar em todas as pontas do processo e tendo a
           capacidade de entregar uma solução completa. Você pode entrar em
           contato comigo através do meu{' '}
-          <strong className='text-cyan-400 hover:text-cyan-200 '>
+          <strong className='text-cyan-300 hover:text-cyan-100 '>
             {' '}
             <a
               href='https://linkedin.com/in/filipelander'

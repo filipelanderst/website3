@@ -8,20 +8,21 @@ import Image4 from '../imgs/bestMovies(tablet2).avif';
 import Image5 from '../imgs/bestMovies(mobile1).avif';
 import Image6 from '../imgs/bestMovies(mobile2).avif';
 
-import HTML from '../icons/whiteHTML.svg';
-import JS from '../icons/whiteJS.svg';
-import iconReact from '../icons/whiteReact.svg';
-import Sass from '../icons/whiteSass.svg';
+import HTML from '../icons/HTML.svg';
+import JS from '../icons/JS.svg';
+import iconReact from '../icons/React.svg';
+import Sass from '../icons/Sass.svg';
+import Footer from '../components/Footer';
 
 const BestMovies = () => {
   return (
     <div className=''>
-      <h1 className='anima limit-title modernline font-thin min-h-[80px] max-h-[80px] text-[3rem] text-slate-600 text-center -ml-52'>
+      <h1 className='anima limit-title modernline font-thin min-h-[80px] max-h-[80px] text-[3rem] text-slate-800 text-center -ml-52'>
         S_1best movies
       </h1>
 
-      <div className='bg-dark grid grid-cols-1 xl:grid-cols-2'>
-        <div className='bg-dark anima-slow relative mx-auto max-w-[275px] min-w-[275px] max-h-[200px] min-h-[200px] sm:max-w-[550px] sm:min-w-[550px] sm:max-h-[400px] sm:min-h-[400px] flex justify-center items-center '>
+      <div className='grid grid-cols-1 xl:grid-cols-2 xl:min-h-[70vh] xl:items-center'>
+        <div className='anima-slow relative mx-auto max-w-[275px] min-w-[275px] max-h-[200px] min-h-[200px] sm:max-w-[550px] sm:min-w-[550px] sm:max-h-[400px] sm:min-h-[400px] flex justify-center items-center '>
           <img
             src={Image1}
             alt=''
@@ -31,25 +32,25 @@ const BestMovies = () => {
           <img
             src={Next}
             alt=''
-            className='absolute w-[15%] sm:w-[12%] top-[45%] -right-3 sm:-right-8'
+            className='absolute w-[15%] sm:w-[12%] top-[45%] -right-3 xxs:-right-8'
           />
           <img
             src={Previous}
             alt=''
-            className='absolute w-[15%] sm:w-[12%] top-[45%] -left-3 sm:-left-8'
+            className='absolute w-[15%] sm:w-[12%] top-[45%] -left-3 xxs:-left-8'
           />
         </div>
         <div className='p-8'>
-          <h1 className='anima-right text-slate-100 text-4xl'>Best Movies</h1>
-          <span className='anima-left block text-slate-300 -mt-1'>jan 23</span>
+          <h1 className='anima-right text-slate-800 text-4xl'>Best Movies</h1>
+          <span className='anima-left block text-slate-600 -mt-1'>jan 23</span>
           <div className='anima-bottom my-4 flex '>
             <img src={HTML} alt='' className='w-5 mr-1' />
             <img src={JS} alt='' className='w-5 mx-1' />
             <img src={iconReact} alt='' className='w-5 mx-1' />
             <img src={Sass} alt='' className='w-5 ml-1' />
           </div>
-          <p className='anima-top my-8 text-slate-300  '>
-            <strong className='font-semibold text-slate-200'>
+          <p className='anima-top my-8 text-slate-600  '>
+            <strong className='font-semibold text-slate-600'>
               Best Movies
             </strong>{' '}
             é um projeto frontend desenvolvido com a finalidade de oferecer aos
@@ -67,7 +68,7 @@ const BestMovies = () => {
             uma performance ótima e um código escalável."
           </p>
 
-          <p className='anima-right limit-title text-slate-100'>
+          <p className='anima-right limit-title text-slate-800'>
             <strong className='text-cyan-300 hover:text-cyan-100 text-lg'>
               <a
                 href='https://flx-react3-best-movies.vercel.app/'
@@ -84,7 +85,7 @@ const BestMovies = () => {
             </a>
           </p>
 
-          <p className='anima-left limit-title text-slate-100'>
+          <p className='anima-left limit-title text-slate-800'>
             <strong className='text-cyan-300 hover:text-cyan-100 text-lg'>
               <a
                 href='https://github.com/flx-lander7/flx-react3__bestMovies'
@@ -102,6 +103,10 @@ const BestMovies = () => {
           </p>
         </div>
       </div>
+
+      <footer className='relative mt-4 py-4'>
+        <Footer />
+      </footer>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import Image5 from '../imgs/bestMovies(mobile1).avif';
 import Image6 from '../imgs/bestMovies(mobile2).avif';
 
 import HTML from '../icons/html.svg';
-import JS from '../icons/JS.svg';
+import JS from '../icons/js.svg';
 import iconReact from '../icons/React.svg';
 import Sass from '../icons/Sass.svg';
 import Footer from '../components/Footer';

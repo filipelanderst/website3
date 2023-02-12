@@ -15,28 +15,28 @@ import Sass from '../icons/whiteSass.svg';
 
 const BestMovies = () => {
   return (
-    <div className=' '>
-      <h1 className='anima limit-title modernline font-thin pt-4 py-8 text-[3rem] text-slate-600 text-center -ml-52'>
+    <div className=''>
+      <h1 className='anima limit-title modernline font-thin min-h-[80px] max-h-[80px] text-[3rem] text-slate-600 text-center -ml-52'>
         S_1best movies
       </h1>
 
-      <div className=' bg-dark grid grid-cols-1 lg:grid-cols-2'>
-        <div className='anima-slow relative mx-auto max-w-[320px] sm:max-w-[480px] min-w-[320px] sm:min-w-[480px] max-h-[320px] min-h-[320px] sm:max-h-[560px] sm:min-h-[560px] flex justify-center items-center '>
+      <div className='bg-dark grid grid-cols-1 xl:grid-cols-2'>
+        <div className='bg-dark anima-slow relative mx-auto max-w-[275px] min-w-[275px] max-h-[200px] min-h-[200px] sm:max-w-[550px] sm:min-w-[550px] sm:max-h-[400px] sm:min-h-[400px] flex justify-center items-center '>
           <img
-            src={Image2}
+            src={Image1}
             alt=''
-            className='max-h-[360px] max-w-[420px] sm:max-h-[580px] sm:max-w-[640px]  p-8'
+            className='max-h-[175px] max-w-[300px] sm:max-h-[350px] sm:max-w-[600px]'
             // className='w-full p-8'
           />
           <img
             src={Next}
             alt=''
-            className='absolute w-[15%] sm:w-[12%] top-[45%] -right-3 sm:-right-9'
+            className='absolute w-[15%] sm:w-[12%] top-[45%] -right-3 sm:-right-8'
           />
           <img
             src={Previous}
             alt=''
-            className='absolute w-[15%] sm:w-[12%] top-[45%] -left-3 sm:-left-9'
+            className='absolute w-[15%] sm:w-[12%] top-[45%] -left-3 sm:-left-8'
           />
         </div>
         <div className='p-8'>

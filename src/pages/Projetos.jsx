@@ -9,12 +9,34 @@ import freeCodeCamp1Img from '../imgs/freeCodeCamp1(desktop).avif';
 
 const Projetos = () => {
   return (
-    <div className='projetos-container min-h-screen'>
-      <h1 className='anima limit-title modernline font-thin pt-4 py-8 text-[3.5rem] text-slate-600 text-center -ml-60'>
+    <div className='bg-green-300'>
+      <h1 className='bg-red-300 anima limit-title modernline font-thin min-h-[120px] max-h-[120px] text-[3.5rem] text-slate-600 text-center pt-2 -ml-60'>
         S_3projetos
       </h1>
 
-      <section className='py-20 pt-12 lg:pt-20 lg:mt-0 mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
+      <section className='bg-blue-200 '>
+        <div className='min-h-[200px] max-h-[200px] flex justify-center items-center'>
+          <Link to='/BestMovies'>
+            <img
+              src={bestMoviesImg}
+              alt=''
+              loading='lazy'
+              className='min-h-[175px] max-h-[175px] xxs:max-h-[220px] xxs:min-h-[200px]'
+            />
+          </Link>
+        </div>
+
+        <div className=''>
+          <div className=''>
+            <h1 className='' translate='no'>
+              <Link to='/BestMovies'>Best Movies</Link>
+            </h1>
+            <p className=''>jan 23</p>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className='py-20 pt-12 lg:pt-20 lg:mt-0 mt-1 mx-auto lg:relative lg:grid grid-cols-2 items-center'>
         <div className=' anima max-w-[720px] mx-auto mb-8 lg:mb-0 '>
           <Link to='/BestMovies'>
             <img src={bestMoviesImg} alt='' loading='lazy' />
@@ -313,7 +335,7 @@ const Projetos = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

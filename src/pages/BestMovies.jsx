@@ -10,7 +10,7 @@ import Image6 from '../imgs/bestMovies(mobile2).avif';
 
 import HTML from '../icons/html.svg';
 import JS from '../icons/js.svg';
-import iconReact from '../icons/React.svg';
+import iconReact from '../icons/react.svg';
 import Sass from '../icons/Sass.svg';
 import Footer from '../components/Footer';
 

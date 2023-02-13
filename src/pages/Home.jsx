@@ -6,7 +6,7 @@ import LinkedInGithub from '../components/LinkedInGithub';
 const Home = () => {
   return (
     <div className='home-container'>
-      <div className='anima w-40 min-h-[320px] mdlg:min-h-[350px] mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] mdlg:-[0vh]'>
+      <div className='anima w-40 min-h-[320px] mdlg:min-h-[350px] mdlg:w-80 mdlg:my-[10vh] mdlg:mx-auto absolute mdlg:static right-0 pt-[4vh] xl:pt-[10vh] mdlg:-[0vh]'>
         <img src={PerfilMobile} alt='' className='mdlg:hidden' />
         <img
           src={PerfilDesktop}
@@ -33,8 +33,10 @@ const Home = () => {
             developer
           </span>
         </h3>
-        <LinkedInGithub />
-        <Technologies />
+        <div>
+          <LinkedInGithub />
+          <Technologies />
+        </div>
       </div>
     </div>
   );

@@ -13,9 +13,9 @@
   @apply text-slate-600 box-border m-0 p-0;
 }
 
-// *::-webkit-scrollbar {
-//   overflow: hidden;
-// }
+*::-webkit-scrollbar {
+  overflow: hidden;
+}
 
 @font-face {
   font-family: Amsterdam;
@@ -93,10 +93,3 @@ p {
     overflow: hidden;
   }
 }
-
-
-
-
-// .scroll::-webkit-scrollbar {
-//   display: none;
-// }

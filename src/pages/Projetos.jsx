@@ -8,14 +8,18 @@ import freeCodeCamp3Img from '../imgs/freeCodeCamp3(desktop).avif';
 import freeCodeCamp1Img from '../imgs/freeCodeCamp1(desktop).avif';
 
 const Projetos = () => {
+  function startOfPage() {
+    return window.scrollTo(0, 0);
+  }
+
   return (
     <div className=''>
-      <h1 className='anima-slow anima limit-title modernline font-thin min-h-[120px] max-h-[120px] text-[3.5rem] text-slate-800 text-center pt-2 -ml-60'>
-        S_3projetos
+      <h1 className='anima-slow anima limit-title modernline font-thin min-h-[120px] max-h-[120px] text-[3.5rem] text-slate-800 text-center pt-2'>
+        Projetos
       </h1>
       <section className='py-20 pt-12 xl:pt-20 xl:mt-0 -mt-10 mx-auto xl:relative xl:grid xl:grid-cols-2 items-center'>
         <div className=' anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px]   mx-auto mb-8 xl:mb-0 '>
-          <Link to='/BestMovies'>
+          <Link onClick={startOfPage} to='/BestMovies'>
             <img src={bestMoviesImg} alt='' loading='lazy' />
           </Link>
         </div>
@@ -26,7 +30,9 @@ const Projetos = () => {
               className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
-              <Link to='/BestMovies'>Best Movies</Link>
+              <Link onClick={startOfPage} to='/BestMovies'>
+                Best Movies
+              </Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-600 font-normal'>
               jan 23
@@ -52,6 +58,7 @@ const Projetos = () => {
 
           <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
+              onClick={startOfPage}
               to='/BestMovies'
               className='bg-white text-slate-900 font-semibold border-2 border-slate-900 px-12 py-2 rounded-md hover:bg-slate-900 hover:text-white'
             >
@@ -62,7 +69,7 @@ const Projetos = () => {
       </section>
       <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
         <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
-          <Link to='/MelhoresCidades'>
+          <Link onClick={startOfPage} to='/MelhoresCidades'>
             <img src={melhoresCidadesImg} alt='' loading='lazy' />
           </Link>
         </div>
@@ -73,7 +80,9 @@ const Projetos = () => {
               className=' anima-right limit-title text-4xl xl:mt-24 text-slate-100'
               translate='no'
             >
-              <Link to='/MelhoresCidades'>Melhores Cidades</Link>
+              <Link onClick={startOfPage} to='/MelhoresCidades'>
+                Melhores Cidades
+              </Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-300 font-normal'>
               dez 22
@@ -109,6 +118,7 @@ const Projetos = () => {
 
           <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
+              onClick={startOfPage}
               to='/MelhoresCidades'
               className='bg-dark text-white font-semibold border-2 border-dark px-12 py-2 rounded-md hover:bg-white hover:text-slate-800'
             >
@@ -119,7 +129,7 @@ const Projetos = () => {
       </section>
       <section className=' py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
         <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
-          <Link to='/NossoPlaneta'>
+          <Link onClick={startOfPage} to='/NossoPlaneta'>
             <img src={nossoPlanetaImg} alt='' loading='lazy' />
           </Link>
         </div>
@@ -130,7 +140,9 @@ const Projetos = () => {
               className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
-              <Link to='/NossoPlaneta'>Nosso Planeta</Link>
+              <Link onClick={startOfPage} to='/NossoPlaneta'>
+                Nosso Planeta
+              </Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-600 font-normal'>
               Out 22
@@ -164,6 +176,7 @@ const Projetos = () => {
 
           <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
+              onClick={startOfPage}
               to='/NossoPlaneta'
               className='bg-white text-slate-900 font-semibold border-2 border-slate-900 px-12 py-2 rounded-md hover:bg-slate-900 hover:text-white'
             >
@@ -175,7 +188,7 @@ const Projetos = () => {
 
       <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
         <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
-          <Link to='/StanislavAdamovich'>
+          <Link onClick={startOfPage} to='/StanislavAdamovich'>
             <img src={freeCodeCamp5Img} alt='' loading='lazy' />
           </Link>
         </div>
@@ -186,7 +199,9 @@ const Projetos = () => {
               className='anima-right limit-title text-4xl xl:mt-24 text-slate-100'
               translate='no'
             >
-              <Link to='/StanislavAdamovich'>Stanislav Adamovich</Link>
+              <Link onClick={startOfPage} to='/StanislavAdamovich'>
+                Stanislav Adamovich
+              </Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-300 font-normal'>
               Mai 22
@@ -213,6 +228,7 @@ const Projetos = () => {
 
           <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
+              onClick={startOfPage}
               to='/StanislavAdamovich'
               className='bg-dark text-white font-semibold border-2 border-dark px-12 py-2 rounded-md hover:bg-white hover:text-slate-800'
             >
@@ -223,7 +239,7 @@ const Projetos = () => {
       </section>
       <section className='bg-white py-20 -mt-10 xl:mt-0  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
         <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
-          <Link to='/VioloesCardin'>
+          <Link onClick={startOfPage} to='/VioloesCardin'>
             <img src={freeCodeCamp3Img} alt='' loading='lazy' />
           </Link>
         </div>
@@ -234,7 +250,10 @@ const Projetos = () => {
               className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
-              <Link to='/VioloesCardin'> Violões Cardin</Link>
+              <Link onClick={startOfPage} to='/VioloesCardin'>
+                {' '}
+                Violões Cardin
+              </Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-600 font-normal'>
               Mai 22
@@ -256,6 +275,7 @@ const Projetos = () => {
 
           <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
+              onClick={startOfPage}
               to='/VioloesCardin'
               className='bg-white text-slate-900 font-semibold border-2 border-slate-900 px-12 py-2 rounded-md hover:bg-slate-900 hover:text-white'
             >
@@ -266,7 +286,7 @@ const Projetos = () => {
       </section>
       <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
         <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
-          <Link to='/PgHomenagem'>
+          <Link onClick={startOfPage} to='/PgHomenagem'>
             <img src={freeCodeCamp1Img} alt='' loading='lazy' />
           </Link>
         </div>
@@ -277,7 +297,9 @@ const Projetos = () => {
               className='anima-right limit-title text-4xl xl:mt-24 text-slate-100'
               translate='no'
             >
-              <Link to='/PgHomenagem'>Página de Homenagem</Link>
+              <Link onClick={startOfPage} to='/PgHomenagem'>
+                Página de Homenagem
+              </Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-300 font-normal'>
               Mai 22
@@ -301,6 +323,7 @@ const Projetos = () => {
 
           <div className='anima-left xl:pb-24 bottom-0 xl:absolute xl:-mb-2'>
             <Link
+              onClick={startOfPage}
               to='/PgHomenagem'
               className='bg-dark text-white font-semibold border-2 border-dark px-12 py-2 rounded-md hover:bg-white hover:text-slate-800'
             >

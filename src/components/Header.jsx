@@ -10,6 +10,10 @@ const Header = () => {
     setOpen(!isOpen);
   };
 
+  function startOfPage() {
+    return window.scrollTo(0, 0);
+  }
+
   return (
     <div className='Header-container '>
       <div className='fixed w-screen top-0 z-30 bg-white flex justify-between items-center mx-auto px-4 -mt-2 '>
@@ -29,13 +33,13 @@ const Header = () => {
 
       <div className={isOpen ? 'menu-open' : 'menu-close'}>
         <ul className='mt-8'>
-          <li onClick={handleMenu}>
+          <li onClick={(startOfPage, handleMenu)}>
             <Link to='/'>Início</Link>
           </li>
-          <li onClick={handleMenu}>
+          <li onClick={(startOfPage, handleMenu)}>
             <Link to='/Projetos'>Projetos</Link>
           </li>
-          <li onClick={handleMenu}>
+          <li onClick={(startOfPage, handleMenu)}>
             <Link to='/SobreMim'>Sobre Mim</Link>
           </li>
           <li>

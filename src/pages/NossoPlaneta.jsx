@@ -99,7 +99,7 @@ const NossoPlaneta = () => {
           <p className='anima-top my-8 text-slate-600  '>
             <strong className='font-semibold'>Nosso planeta</strong> foi
             inspirado na série{' '}
-            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
+            <strong className='text-cyan-500 hover:text-cyan-100 font-semibold '>
               <a href='https://www.ourplanet.com/pt/' target='_blank'>
                 Our Planet.
               </a>
@@ -107,13 +107,13 @@ const NossoPlaneta = () => {
             Essa série fornece vídeos explicativos e detalhados sobre os
             diferentes climas do planeta terra, as diferentes formas de vida e
             suas peculiaridades. Os vídeos estão disponíveis no{' '}
-            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold'>
+            <strong className='text-cyan-500 hover:text-cyan-100 font-semibold'>
               <a href='https://www.youtube.com/' target='_blank'>
                 YOUTUBE
               </a>
             </strong>{' '}
             e também na{' '}
-            <strong className='text-cyan-300 hover:text-cyan-100 font-semibold'>
+            <strong className='text-cyan-500 hover:text-cyan-100 font-semibold'>
               <a href='https://www.netflix.com/br/' target='_blank'>
                 NETFLIX
               </a>
@@ -122,7 +122,7 @@ const NossoPlaneta = () => {
           </p>
 
           <p className='anima-right limit-title text-slate-800'>
-            <strong className='text-cyan-300 hover:text-cyan-100 text-lg'>
+            <strong className='text-cyan-500 hover:text-cyan-100 text-lg'>
               <a href='https://nosso-planeta.vercel.app/' target='_blank'>
                 Site:
               </a>
@@ -133,7 +133,7 @@ const NossoPlaneta = () => {
           </p>
 
           <p className='anima-left limit-title text-slate-800'>
-            <strong className='text-cyan-300 hover:text-cyan-100 text-lg'>
+            <strong className='text-cyan-500 hover:text-cyan-100 text-lg'>
               <a
                 href='https://github.com/flx-lander7/flx-react1__nossoPlaneta'
                 target='_blank'

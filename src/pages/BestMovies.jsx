@@ -62,17 +62,6 @@ const BestMovies = () => {
           />
 
           <button
-            onClick={nextImage}
-            disabled={currentIndex === items.length - 1}
-            className='absolute cursor-pointer w-[15%] sm:w-[12%] top-[45%] -right-3 xxs:-right-8'
-          >
-            <img
-              src={Next}
-              alt=''
-              className={currentIndex === items.length - 1 ? 'hidden' : ''}
-            />
-          </button>
-          <button
             onClick={previousImage}
             disabled={currentIndex === 0}
             className='absolute cursor-pointer w-[15%] sm:w-[12%] top-[45%] -left-3 xxs:-left-8'
@@ -81,6 +70,18 @@ const BestMovies = () => {
               src={Previous}
               alt=''
               className={currentIndex === 0 ? 'hidden' : ''}
+            />
+          </button>
+
+          <button
+            onClick={nextImage}
+            disabled={currentIndex === items.length - 1}
+            className='absolute cursor-pointer w-[15%] sm:w-[12%] top-[45%] -right-3 xxs:-right-8'
+          >
+            <img
+              src={Next}
+              alt=''
+              className={currentIndex === items.length - 1 ? 'hidden' : ''}
             />
           </button>
         </div>

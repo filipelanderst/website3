@@ -26,7 +26,7 @@ const Projetos = () => {
               className='anima-right limit-title text-4xl xl:mt-24 text-slate-800'
               translate='no'
             >
-              <Link to='/BestMovies'> Best Movies</Link>
+              <Link to='/BestMovies'>Best Movies</Link>
             </h1>
             <p className='anima-left -mt-1 text-sm text-slate-600 font-normal'>
               jan 23
@@ -34,11 +34,11 @@ const Projetos = () => {
           </div>
 
           <p className='anima-right limit-paragraph my-8 text-slate-600  '>
-            <strong className='font-semibold'>'Best Movies'</strong> é um
-            projeto frontend desenvolvido com a finalidade de oferecer aos
-            usuários uma plataforma de avaliação de filmes. Com uma interface
-            intuitiva e de fácil navegação, os usuários tem acesso a informações
-            dos top 40 filmes da{' '}
+            <strong className='font-semibold'>Best Movies</strong> é um projeto
+            frontend desenvolvido com a finalidade de oferecer aos usuários uma
+            plataforma de avaliação de filmes. Com uma interface intuitiva e de
+            fácil navegação, os usuários tem acesso a informações dos top 40
+            filmes da{' '}
             <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
               <a href='https://www.imdb.com/' target='_blank'>
                 IMDB
@@ -82,7 +82,7 @@ const Projetos = () => {
 
           <p className='anima-right limit-paragraph my-8 text-slate-300  '>
             <strong className='font-semibold text-slate-200'>
-              'Melhores Cidades'
+              Melhores Cidades
             </strong>{' '}
             é um projeto inspirado no site{' '}
             <a
@@ -138,7 +138,7 @@ const Projetos = () => {
           </div>
 
           <p className='anima-right limit-paragraph my-8 text-slate-600  '>
-            <strong className='font-semibold'>'Nosso planeta'</strong> foi
+            <strong className='font-semibold'>Nosso planeta</strong> foi
             inspirado na série{' '}
             <strong className='text-cyan-300 hover:text-cyan-100 font-semibold '>
               <a href='https://www.ourplanet.com/pt/' target='_blank'>
@@ -172,6 +172,7 @@ const Projetos = () => {
           </div>
         </div>
       </section>
+
       <section className='bg-dark py-20  mt-1 mx-auto xl:relative xl:grid grid-cols-2 items-center'>
         <div className='anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px] mx-auto mb-8 xl:mb-0'>
           <Link to='/StanislavAdamovich'>

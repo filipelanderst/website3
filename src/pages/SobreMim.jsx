@@ -6,7 +6,8 @@ const SobreMim = () => {
     <div className='sobremim-container'>
       <section>
         <h1 className='anima-left limit-title modernline font-thin min-h-[100px] max-h-[100px] text-[3.5rem] text-slate-800 text-center pt-3 -ml-60'>
-          <span className='modernline -mr-1'>S_3</span>sobre mim
+          <span className='modernline -mr-1'>S_3</span>
+          sobre mim
         </h1>
 
         <p className='anima-right mt-4 px-8 text-slate-600  '>

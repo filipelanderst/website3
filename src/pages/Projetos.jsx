@@ -13,11 +13,11 @@ const Projetos = () => {
   }
 
   return (
-    <div className=''>
+    <div>
       <h1 className='anima-slow anima limit-title modernline font-thin min-h-[120px] max-h-[120px] text-[3.5rem] text-slate-800 text-center pt-2'>
         Projetos
       </h1>
-      <section className='py-20 pt-12 xl:pt-20 xl:mt-0 -mt-10 mx-auto xl:relative xl:grid xl:grid-cols-2 items-center'>
+      <section className='py-20 pt-12 xl:mt-0 -mt-10 mx-auto xl:relative xl:grid xl:grid-cols-2 items-center'>
         <div className=' anima max-w-[720px] min-h-[175px] xs:min-h-[225px] sm:min-h-[355px]   mx-auto mb-8 xl:mb-0 '>
           <Link onClick={startOfPage} to='/BestMovies'>
             <img src={bestMoviesImg} alt='' loading='lazy' />

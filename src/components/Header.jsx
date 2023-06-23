@@ -44,7 +44,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href='https://github.com/flx-lander7'
+              href='https://github.com/filipelanderst'
               target='_blank'
               translate='no'
             >

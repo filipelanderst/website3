@@ -25,7 +25,7 @@ const MenuDesktop = () => {
         </li>
         <li className='mr-6 border-b-2 border-transparent hover:border-slate-600'>
           <a
-            href='https://github.com/flx-lander7'
+            href='https://github.com/filipelanderst'
             target='_blank'
             translate='no'
           >
